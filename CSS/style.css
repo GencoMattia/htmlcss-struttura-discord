@@ -101,6 +101,20 @@ main section:last-of-type div{
 }
 
 footer{
+    padding: 20% 10%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer ul{
+    padding-bottom: 2.5%;
+}
+
+.register{
+    border-top: 1px solid;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
