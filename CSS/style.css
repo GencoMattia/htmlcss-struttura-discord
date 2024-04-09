@@ -10,52 +10,61 @@ ul{
     list-style: none;
 }
 
+button{
+    padding: .5em;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* element rules */
 body{
-    font-family: cabin, sans-serif;
+    font-family: "cabin", sans-serif;
 }
 
 header{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    font-size: .7em;
 }
 
 .logo-bar{
+    padding: .9% 10%; 
     background-color: #255ee9;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
 .logo-bar>img{
-    max-width: 15%;
-    flex-grow: 1;
+    max-width: 100%;
+    width: 10%;
 }
 
 .logo-bar ul{
+    width: 65%;
     display: flex;
     justify-content: space-between;
-    flex-grow: 4;
-    padding: 1.5% 20%;
-}
-
-.login-button{
-    max-width: 15%;
-    flex-grow: 1;
+    align-items: center;
+    padding: 0 10%;
 }
 
 .download{
-    background-color: aquamarine;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
     text-align: center;
-    padding: 10% 25% 6.5%;
+    font-size: 1.2em;
+    padding: 9% 24.5% 7%;
 }
 
 .download h1{
+    font-size: 2.5em;
     padding: 0 0 5%;
 }
 
 .download p{
-    padding: 0 0 1.5%;
+    padding: 0 0 2.5%;
 }
 
 main{
