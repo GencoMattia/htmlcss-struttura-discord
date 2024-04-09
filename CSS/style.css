@@ -85,3 +85,13 @@ main section:last-of-type div{
     padding: 0 15%;
     text-align: center;
 }
+
+.last-download{
+    padding: 20% 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.last-download h3{
+    padding-bottom: 10%;
+}
