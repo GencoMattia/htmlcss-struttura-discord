@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* general rules */
+ul{
+    list-style: none;
+}
+
 body{
     font-family: cabin, sans-serif;
 }
@@ -29,7 +34,6 @@ header{
 
 .logo-bar ul{
     display: flex;
-    list-style: none;
     justify-content: space-between;
     flex-grow: 4;
     padding: 1.5% 20%;
@@ -94,4 +98,9 @@ main section:last-of-type div{
 
 .last-download h3{
     padding-bottom: 10%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
 }
