@@ -91,7 +91,7 @@ main section:last-of-type div{
 }
 
 .last-download{
-    padding: 20% 30%;
+    padding: 10% 30%;
     margin: 0 auto;
     text-align: center;
 }
@@ -101,7 +101,8 @@ main section:last-of-type div{
 }
 
 footer{
-    padding: 20% 10%;
+    background-color: #23272a;
+    padding: 4% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -109,6 +110,10 @@ footer{
 
 footer ul{
     padding-bottom: 2.5%;
+}
+
+footer li{
+    padding: 3% 0;
 }
 
 .register{
