@@ -74,3 +74,14 @@ main section img{
 main section div{
     max-width: 30%;
 }
+
+main section:last-of-type{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section:last-of-type div{
+    max-width: 100%;
+    padding: 0 15%;
+    text-align: center;
+}
