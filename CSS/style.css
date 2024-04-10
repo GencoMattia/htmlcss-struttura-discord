@@ -140,6 +140,16 @@ footer{
     justify-content: space-between;
 }
 
+.socials-links{
+width: 20%;
+}
+
+footer nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
 footer ul{
     padding-bottom: 2.5%;
 }
