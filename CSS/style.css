@@ -134,6 +134,7 @@ main section:last-of-type div{
 
 footer{
     background-color: #23272a;
+    color: white;
     padding: 4% 10%;
     display: flex;
     flex-wrap: wrap;
